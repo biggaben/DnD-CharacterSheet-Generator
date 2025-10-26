@@ -174,7 +174,7 @@ def main():
         print("\n⚠ THIS FILE DOES NOT USE THE STANDARDIZED TEMPLATE FORMAT")
         print("   The LLM should fill the standardized template by putting values after")
         print("   each field name (FieldName: value) WITHOUT changing the field names.")
-        print("\n   See character_sheets/character_standardized_template.txt for the template.")
+        print("\n   See character_sheets/template_semantic_fields.txt for the template.")
 
     return 0 if results['is_valid'] else 1
 

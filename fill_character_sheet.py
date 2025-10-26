@@ -3,10 +3,32 @@
 
 import re
 import json
+import sys
+import os
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, messagebox
 from pathlib import Path
 from pypdf import PdfReader, PdfWriter
+
+# Fix for PyInstaller bundled executables where stdin/stdout/stderr may be None
+if getattr(sys, 'frozen', False):
+    if sys.stdout is None:
+        sys.stdout = open(os.devnull, "w")
+    if sys.stderr is None:
+        sys.stderr = open(os.devnull, "w")
+    if sys.stdin is None:
+        sys.stdin = open(os.devnull, "r")
+
+
+def get_resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller."""
+    if getattr(sys, 'frozen', False):
+        # Running in a PyInstaller bundle
+        base_path = sys._MEIPASS
+    else:
+        # Running in normal Python environment
+        base_path = Path(__file__).parent
+    return Path(base_path) / relative_path
 
 
 def load_field_mappings(mappings_file: Path) -> dict:
@@ -221,7 +243,7 @@ def main():
     # Open file picker
     template_path = filedialog.askopenfilename(
         title="Select Character Template File",
-        initialdir=Path(__file__).parent / "character_sheets",
+        initialdir=get_resource_path("character_sheets"),
         filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
     )
 
@@ -238,14 +260,14 @@ def main():
     print(f"Character: {character_name}")
 
     # Define paths
-    script_dir = Path(__file__).parent
-    blank_pdf_path = script_dir / "character_sheets" / "Character Sheet 5e.pdf"
+    script_dir = get_resource_path("")
+    blank_pdf_path = get_resource_path("character_sheets") / "dnd5e_blank_sheet.pdf"
 
     # Check blank PDF exists
     if not blank_pdf_path.exists():
-        print(f"\nError: Blank PDF not found at: {blank_pdf_path}")
-        print("Please ensure 'Character Sheet 5e.pdf' is in character_sheets/")
-        input("\nPress Enter to exit...")
+        msg = ("Blank PDF not found.\n"
+               "Please ensure 'dnd5e_blank_sheet.pdf' is in character_sheets/")
+        messagebox.showerror("Error", msg)
         return 1
 
     # Parse template
@@ -282,8 +304,7 @@ def main():
                     print(f"Warning: {unmapped_count} fields not in mapping")
 
     except Exception as e:
-        print(f"\nError parsing template: {e}")
-        input("\nPress Enter to exit...")
+        messagebox.showerror("Error", f"Error parsing template: {e}")
         return 1
 
     # Open Save As dialog
@@ -295,12 +316,12 @@ def main():
         initialdir=script_dir,
         filetypes=[("PDF files", "*.pdf"), ("All files", "*.*")]
     )
-    
+
     # User cancelled
     if not output_pdf_path:
         print("Cancelled.")
         return 0
-    
+
     output_pdf_path = Path(output_pdf_path)
 
     # Fill PDF
@@ -316,15 +337,15 @@ def main():
         print(f"Saved: {output_pdf_path.absolute()}\n")
 
     except Exception as e:
-        print(f"\nError: {e}")
+        messagebox.showerror("Error", f"Error filling PDF: {e}")
         if output_pdf_path.exists():
             output_pdf_path.unlink()
-        input("\nPress Enter to exit...")
         return 1
 
-    input("Press Enter to exit...")
+    msg = f"Filled {fields_filled} fields\nSaved: {output_pdf_path.name}"
+    messagebox.showinfo("Success", msg)
     return 0
 
 
 if __name__ == "__main__":
-    exit(main())
+    sys.exit(main())

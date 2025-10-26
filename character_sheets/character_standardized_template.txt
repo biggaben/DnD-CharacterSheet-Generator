@@ -321,71 +321,124 @@ SpellSlots_Level7_Total:
 SpellSlots_Level8_Total:
 SpellSlots_Level9_Total:
 
-# CANTRIPS (Slots 01-07)
+# CANTRIPS
 List up to 7 cantrips the character knows. Cantrips are level 0 spells.
 For each cantrip, provide: Name, Range, Duration, Components, Description
 (Do NOT include a Level field for cantrips - they are always level 0)
 
 Example: [Eldritch Blast cantrip] →
-  Spell_01_Name: Eldritch Blast
-  Spell_01_Range: 120 feet
+  Cantrip_1_Name: Eldritch Blast
+  Cantrip_1_Range: 120 feet
+  Cantrip_1_Duration: Instantaneous
+  Cantrip_1_Components: V, S
+  Cantrip_1_Description: Make a ranged spell attack for 1d10 force damage
+
+Spellcasting_CantripsKnown:
+
+Cantrip_1_Name:
+Cantrip_1_Range:
+Cantrip_1_Duration:
+Cantrip_1_Components:
+Cantrip_1_Description:
+
+Cantrip_2_Name:
+Cantrip_2_Range:
+Cantrip_2_Duration:
+Cantrip_2_Components:
+Cantrip_2_Description:
+
+Cantrip_3_Name:
+Cantrip_3_Range:
+Cantrip_3_Duration:
+Cantrip_3_Components:
+Cantrip_3_Description:
+
+Cantrip_4_Name:
+Cantrip_4_Range:
+Cantrip_4_Duration:
+Cantrip_4_Components:
+Cantrip_4_Description:
+
+Cantrip_5_Name:
+Cantrip_5_Range:
+Cantrip_5_Duration:
+Cantrip_5_Components:
+Cantrip_5_Description:
+
+Cantrip_6_Name:
+Cantrip_6_Range:
+Cantrip_6_Duration:
+Cantrip_6_Components:
+Cantrip_6_Description:
+
+Cantrip_7_Name:
+Cantrip_7_Range:
+Cantrip_7_Duration:
+Cantrip_7_Components:
+Cantrip_7_Description:
+
+# LEVELED SPELLS
+List up to 8 leveled spells (levels 1-9) the character knows or has prepared.
+For each leveled spell, provide: Name, Level, Range, Duration, Components, Description
+
+Example: [Cure Wounds, 1st-level spell] →
+  Spell_01_Name: Cure Wounds
+  Spell_01_Level: 1
+  Spell_01_Range: Touch
   Spell_01_Duration: Instantaneous
   Spell_01_Components: V, S
-  Spell_01_Description: Make a ranged spell attack for 1d10 force damage
+  Spell_01_Description: Restore 1d8 + spellcasting modifier HP
+
+Spellcasting_SpellsKnown:
 
 Spell_01_Name:
+Spell_01_Level:
 Spell_01_Range:
 Spell_01_Duration:
 Spell_01_Components:
 Spell_01_Description:
 
 Spell_02_Name:
+Spell_02_Level:
 Spell_02_Range:
 Spell_02_Duration:
 Spell_02_Components:
 Spell_02_Description:
 
 Spell_03_Name:
+Spell_03_Level:
 Spell_03_Range:
 Spell_03_Duration:
 Spell_03_Components:
 Spell_03_Description:
 
 Spell_04_Name:
+Spell_04_Level:
 Spell_04_Range:
 Spell_04_Duration:
 Spell_04_Components:
 Spell_04_Description:
 
 Spell_05_Name:
+Spell_05_Level:
 Spell_05_Range:
 Spell_05_Duration:
 Spell_05_Components:
 Spell_05_Description:
 
 Spell_06_Name:
+Spell_06_Level:
 Spell_06_Range:
 Spell_06_Duration:
 Spell_06_Components:
 Spell_06_Description:
 
 Spell_07_Name:
+Spell_07_Level:
 Spell_07_Range:
 Spell_07_Duration:
 Spell_07_Components:
 Spell_07_Description:
-
-# LEVELED SPELLS (Slots 08-15)
-List up to 8 leveled spells (levels 1-9) the character knows or has prepared.
-For each leveled spell, provide: Name, Level, Range, Duration, Components, Description
-
-Example: [Cure Wounds, 1st-level spell] →
-  Spell_08_Name: Cure Wounds
-  Spell_08_Level: 1
-  Spell_08_Range: Touch
-  Spell_08_Duration: Instantaneous
-  Spell_08_Components: V, S
-  Spell_08_Description: Restore 1d8 + spellcasting modifier HP
 
 Spell_08_Name:
 Spell_08_Level:
@@ -394,69 +447,15 @@ Spell_08_Duration:
 Spell_08_Components:
 Spell_08_Description:
 
-Spell_09_Name:
-Spell_09_Level:
-Spell_09_Range:
-Spell_09_Duration:
-Spell_09_Components:
-Spell_09_Description:
-
-Spell_10_Name:
-Spell_10_Level:
-Spell_10_Range:
-Spell_10_Duration:
-Spell_10_Components:
-Spell_10_Description:
-
-Spell_11_Name:
-Spell_11_Level:
-Spell_11_Range:
-Spell_11_Duration:
-Spell_11_Components:
-Spell_11_Description:
-
-Spell_12_Name:
-Spell_12_Level:
-Spell_12_Range:
-Spell_12_Duration:
-Spell_12_Components:
-Spell_12_Description:
-
-Spell_13_Name:
-Spell_13_Level:
-Spell_13_Range:
-Spell_13_Duration:
-Spell_13_Components:
-Spell_13_Description:
-
-Spell_14_Name:
-Spell_14_Level:
-Spell_14_Range:
-Spell_14_Duration:
-Spell_14_Components:
-Spell_14_Description:
-
-Spell_15_Name:
-Spell_15_Level:
-Spell_15_Range:
-Spell_15_Duration:
-Spell_15_Components:
-Spell_15_Description:
-
 # CLASS-SPECIFIC FIELDS (Optional - Fill only if applicable)
 
 Warlock_Pact:
 Warlock_Patron:
 
+Spellcasting_InvocationCount:
+
 Class_SpecialResource_Name:
 Class_SpecialResource_Total:
-
-# ADDITIONAL SPELL FIELDS
-Warlock invocations, special abilities, cantrip counts, etc.
-
-Spellcasting_InvocationCount:
-Spellcasting_CantripsKnown:
-Spellcasting_SpellsKnown:
 
 Invocations_And_Abilities:
 

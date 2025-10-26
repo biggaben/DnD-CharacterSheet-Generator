@@ -1,12 +1,14 @@
-# DnD Character Sheet Auto-Fill
+# D&D Character Sheet Auto-Fill
 
 Automatically fill D&D 5e character sheet PDFs from text templates.
+
+**→ Want a standalone .exe?** Run `build_executable.bat` to create a Windows executable (no Python required to run).
 
 ## Two Template Options
 
 ### 1. Standardized Template (Recommended for LLMs)
 
-Use `character_standardized_template.txt` with logical, semantic field names:
+Use `template_semantic_fields.txt` with logical, semantic field names:
 
 - Easy for LLMs to understand and fill
 - Clear instructions for each section
@@ -15,7 +17,7 @@ Use `character_standardized_template.txt` with logical, semantic field names:
 
 ### 2. Direct PDF Template
 
-Use `character_pdf_template.txt` with exact PDF field names:
+Use `template_direct_fields.txt` with exact PDF field names:
 
 - Direct mapping (no translation needed)
 - All 259 PDF fields available
@@ -32,7 +34,7 @@ Use `character_pdf_template.txt` with exact PDF field names:
 ### Command Line
 
 ```bash
-.venv\Scripts\python auto_fill_character_sheet.py
+.venv\Scripts\python fill_character_sheet.py
 ```
 
 ## Setup
@@ -78,16 +80,30 @@ View all mappings in `field_mappings.json`.
 
 - Python 3.8+
 - pypdf library
-- `Character Sheet 5e.pdf` in `character_sheets/` directory
+- `dnd5e_blank_sheet.pdf` in `character_sheets/` directory
 
 ## Files
 
-- `auto_fill_character_sheet.py` - Main script
-- `run_auto_fill.bat` - Windows launcher
-- `character_standardized_template.txt` - LLM-friendly template with logical names
-- `Character_Sheet_PDF_Template.txt` - Direct PDF field template
+- `fill_character_sheet.py` - Main script
+- `run_gui.bat` - Windows launcher
 - `field_mappings.json` - Translation layer (standardized → PDF fields)
-- `character_sheets/Character Sheet 5e.pdf` - Blank PDF form
+- `character_sheets/` - Templates and blank PDF form
+- `Examples/` - Sample filled character templates
+- `build_executable.bat` - **Build standalone .exe**
+- `BuildGuide.md` - Detailed build instructions
+- `requirements.txt` - Python dependencies
+- `validate_template.py` - Template validation tool
+- `TemplateGuide.md` - Template system documentation
+
+## Building an Executable
+
+Want to share this tool with non-technical users? Build a standalone `.exe`:
+
+```bash
+.\build_executable.bat
+```
+
+See `BuildGuide.md` for detailed instructions and troubleshooting.
 
 ---
 

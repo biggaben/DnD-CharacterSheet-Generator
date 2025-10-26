@@ -5,13 +5,13 @@
 This system automates filling D&D 5e character sheets by:
 1. Using a **standardized template format** with consistent field names
 2. Mapping those field names to **PDF form fields** via `field_mappings.json`
-3. Auto-filling the PDF with the `auto_fill_character_sheet.py` script
+3. Auto-filling the PDF with the `fill_character_sheet.py` script
 
 ---
 
 ## System Components
 
-### 1. Standardized Template (`character_standardized_template.txt`)
+### 1. Standardized Template (`template_semantic_fields.txt`)
 
 **Purpose:** Define consistent, machine-readable field names for all character data.
 
@@ -58,7 +58,7 @@ Dungeoneer's Pack
 ```
 
 **Important Notes:**
-- PDF field names are specific to the form (found in `Character Sheet 5e.pdf`)
+- PDF field names are specific to the form (found in `dnd5e_blank_sheet.pdf`)
 - Some PDF fields have trailing spaces: `"Race "` not `"Race"`
 - Some standardized fields have **no PDF mapping** (see below)
 
@@ -81,7 +81,7 @@ These fields exist in the standardized template but **don't map to PDF fields**:
 
 ---
 
-### 3. Auto-Fill Script (`auto_fill_character_sheet.py`)
+### 3. Auto-Fill Script (`fill_character_sheet.py`)
 
 **Purpose:** Parse filled template and generate filled PDF.
 
@@ -138,7 +138,7 @@ python validate_template.py "My Character.txt"
 
 ### For LLMs Filling Templates
 
-1. **Start with the blank template:** `character_sheets/character_standardized_template.txt`
+1. **Start with the blank template:** `character_sheets/template_semantic_fields.txt`
 
 2. **Read the instructions carefully** (at top of template)
 
