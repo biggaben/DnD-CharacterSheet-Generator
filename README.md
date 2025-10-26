@@ -8,7 +8,7 @@ Automatically fill D&D 5e character sheet PDFs from text templates.
 
 ### 1. Standardized Template (Recommended for LLMs)
 
-Use `template_semantic_fields.txt` with logical, semantic field names:
+Use `character_standardized_template.txt` with logical, semantic field names:
 
 - Easy for LLMs to understand and fill
 - Clear instructions for each section
@@ -17,7 +17,7 @@ Use `template_semantic_fields.txt` with logical, semantic field names:
 
 ### 2. Direct PDF Template
 
-Use `template_direct_fields.txt` with exact PDF field names:
+Use `character_pdf_template.txt` with exact PDF field names:
 
 - Direct mapping (no translation needed)
 - All 259 PDF fields available
@@ -44,7 +44,7 @@ Use `template_direct_fields.txt` with exact PDF field names:
 
    ```bash
    python -m venv .venv
-   .venv\Scripts\pip install pypdf
+   .venv\Scripts\pip install -r requirements.txt
    ```
 
 ## Creating a Character
@@ -79,7 +79,7 @@ View all mappings in `field_mappings.json`.
 ## Requirements
 
 - Python 3.8+
-- pypdf library
+- Dependencies listed in `requirements.txt` (pypdf, pyinstaller)
 - `dnd5e_blank_sheet.pdf` in `character_sheets/` directory
 
 ## Files
@@ -93,7 +93,8 @@ View all mappings in `field_mappings.json`.
 - `BuildGuide.md` - Detailed build instructions
 - `requirements.txt` - Python dependencies
 - `validate_template.py` - Template validation tool
-- `TemplateGuide.md` - Template system documentation
+- `LICENSE` - MIT license
+- `README.md` - This file
 
 ## Building an Executable
 
@@ -103,9 +104,6 @@ Want to share this tool with non-technical users? Build a standalone `.exe`:
 .\build_executable.bat
 ```
 
+The executable (`DnD_CharacterSheet_Generator.exe`) will be created in the `dist/` folder.
+
 See `BuildGuide.md` for detailed instructions and troubleshooting.
-
----
-
-**Simple. Fast. No fluff.**
-
