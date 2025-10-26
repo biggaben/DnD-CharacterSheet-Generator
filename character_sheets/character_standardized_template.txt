@@ -1,0 +1,465 @@
+D&D 5e Character Sheet - Standardized Template
+============================================================
+
+CRITICAL INSTRUCTIONS FOR LLM:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THIS IS A FILL-IN-THE-BLANK FORM. DO NOT CREATE A NEW DOCUMENT.
+DO NOT CHANGE ANY FIELD NAMES. DO NOT REORGANIZE SECTIONS.
+
+✓ DO: Put values after the colon on the same line
+✓ DO: Keep the exact field names (e.g., "Character_Name:")
+✓ DO: Use proper D&D formatting: +3 for bonuses, 1d8+3 for dice
+✓ DO: Leave fields blank if information not available
+
+✗ DON'T: Change "Character_Name:" to "Name:" or any other variation
+✗ DON'T: Create section headers like "Character Identification"
+✗ DON'T: Reorganize or reformat the template structure
+✗ DON'T: Remove field names or underscores
+
+EXAMPLE OF CORRECT FILLING:
+  Character_Name: Aerion Ferris
+  Ability_Strength: 8
+  Ability_Strength_Modifier: -1
+
+EXAMPLE OF WRONG (DO NOT DO THIS):
+  Name: Aerion Ferris          ← WRONG: Field name changed
+  Strength: 8 (−1)             ← WRONG: Combined fields
+  Character Identification     ← WRONG: Added section header
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADDITIONAL FORMATTING RULES:
+1. Read the source character sheet carefully
+2. Extract information matching each field description below
+3. Fill values after the colon (FieldName: value)
+4. For multi-line fields, continue on following lines (no blank lines)
+5. Use proper formatting: +3 for bonuses, 1d8+3 for dice notation
+6. Leave fields blank if information not available
+7. DO NOT MODIFY FIELD NAMES - they are used for automated PDF filling
+8. Maintain consistent formatting throughout
+
+Output result in a code block.
+
+Multi-line field example:
+Equipment_List: Scale Mail
+Shield
+Dungeoneer's Pack
+Smith's Tools
+
+Single-line field example:
+Character_Name: Aerion Ferris
+
+============================================================
+
+# CHARACTER IDENTITY
+Extract basic character information from the header/top of character sheet.
+
+Example: "Name: Aerion Ferris, Race: Tiefling (Winged), Class: Artificer, Level: 1" →
+  Character_Name: Aerion Ferris
+  Character_Class_Level: Artificer 1
+  Character_Race: Tiefling (Winged)
+
+Player_Name:
+Character_Name:
+Character_Class_Level:
+Character_Race:
+Character_Background:
+Character_Alignment:
+Character_XP:
+
+# PHYSICAL APPEARANCE
+
+Appearance_Age:
+Appearance_Height:
+Appearance_Weight:
+Appearance_Eyes:
+Appearance_Skin:
+Appearance_Hair:
+
+# ABILITY SCORES
+Extract the six core D&D ability scores (usually 3-20) and their modifiers (usually -5 to +10).
+Format modifiers with + or - sign: +3, -1, +0
+
+Example: "Strength: 8 (−1)" →
+  Ability_Strength: 8
+  Ability_Strength_Modifier: -1
+
+Ability_Strength:
+Ability_Strength_Modifier:
+Ability_Dexterity:
+Ability_Dexterity_Modifier:
+Ability_Constitution:
+Ability_Constitution_Modifier:
+Ability_Intelligence:
+Ability_Intelligence_Modifier:
+Ability_Wisdom:
+Ability_Wisdom_Modifier:
+Ability_Charisma:
+Ability_Charisma_Modifier:
+
+# COMBAT STATS
+Extract combat-related values. Proficiency bonus is based on level (+2 at level 1-4).
+Passive Perception = 10 + Wisdom modifier + Perception proficiency (if any)
+
+Example: "AC: 18, Initiative: +3, Speed: 30 ft., Passive Perception: 13" →
+  Combat_ArmorClass: 18
+  Combat_Initiative: +3
+  Combat_Speed: 30 ft.
+  Combat_PassivePerception: 13
+
+Combat_ProficiencyBonus:
+Combat_ArmorClass:
+Combat_Initiative:
+Combat_Speed:
+Combat_PassivePerception:
+Combat_Inspiration:
+
+# HIT POINTS & HIT DICE
+HP values are numbers. Hit dice show quantity and type (e.g., "1d8" for 1 eight-sided die).
+
+HP_Maximum:
+HP_Current:
+HP_Temporary:
+HitDice_Total:
+HitDice_Type:
+
+# SAVING THROWS
+Extract saving throw bonuses (usually ability modifier + proficiency if proficient).
+Mark proficiency as "Yes" if character is proficient, leave blank otherwise.
+The proficiency value will populate the checkbox on the PDF.
+
+Example: "Constitution (+4) [Proficient]" →
+  Save_Constitution_Bonus: +4
+  Save_Constitution_Proficient: Yes
+
+Save_Strength_Bonus:
+Save_Strength_Proficient:
+Save_Dexterity_Bonus:
+Save_Dexterity_Proficient:
+Save_Constitution_Bonus:
+Save_Constitution_Proficient:
+Save_Intelligence_Bonus:
+Save_Intelligence_Proficient:
+Save_Wisdom_Bonus:
+Save_Wisdom_Proficient:
+Save_Charisma_Bonus:
+Save_Charisma_Proficient:
+
+# SKILLS (18 Total)
+Extract skill bonuses and proficiency indicators.
+Bonus = ability modifier + proficiency bonus (if proficient) + expertise bonus (if expert)
+Mark proficiency as "Yes" to check the proficiency box on the PDF.
+
+Example: "Investigation (+5) [Proficient]" →
+  Skill_Investigation_Bonus: +5
+  Skill_Investigation_Proficient: Yes
+
+Skill_Acrobatics_Bonus:
+Skill_Acrobatics_Proficient:
+Skill_AnimalHandling_Bonus:
+Skill_AnimalHandling_Proficient:
+Skill_Arcana_Bonus:
+Skill_Arcana_Proficient:
+Skill_Athletics_Bonus:
+Skill_Athletics_Proficient:
+Skill_Deception_Bonus:
+Skill_Deception_Proficient:
+Skill_History_Bonus:
+Skill_History_Proficient:
+Skill_Insight_Bonus:
+Skill_Insight_Proficient:
+Skill_Intimidation_Bonus:
+Skill_Intimidation_Proficient:
+Skill_Investigation_Bonus:
+Skill_Investigation_Proficient:
+Skill_Medicine_Bonus:
+Skill_Medicine_Proficient:
+Skill_Nature_Bonus:
+Skill_Nature_Proficient:
+Skill_Perception_Bonus:
+Skill_Perception_Proficient:
+Skill_Performance_Bonus:
+Skill_Performance_Proficient:
+Skill_Persuasion_Bonus:
+Skill_Persuasion_Proficient:
+Skill_Religion_Bonus:
+Skill_Religion_Proficient:
+Skill_SleightOfHand_Bonus:
+Skill_SleightOfHand_Proficient:
+Skill_Stealth_Bonus:
+Skill_Stealth_Proficient:
+Skill_Survival_Bonus:
+Skill_Survival_Proficient:
+
+# PROFICIENCIES & LANGUAGES [MULTI-LINE]
+List armor, weapon, tool, and language proficiencies. One per line or comma-separated.
+
+Example: "Armor: Light, Medium, Shields; Weapons: Simple, Crossbows; Languages: Common, Infernal" →
+  Proficiencies_Languages: Light Armor, Medium Armor, Shields
+  Simple Weapons, Crossbows
+  Smith's Tools, Tinker's Tools
+  Common, Infernal, Gnomish
+
+Proficiencies_Languages:
+
+# WEAPONS & ATTACKS (5 slots)
+Extract weapon details. Format attack bonus with + sign, damage with dice notation.
+
+Example: "Light Crossbow: +5 to hit, 1d8+3 piercing, range 80/320 ft." →
+  Weapon_1_Name: Light Crossbow
+  Weapon_1_AttackBonus: +5
+  Weapon_1_Damage: 1d8+3 piercing
+
+Weapon_1_Name:
+Weapon_1_AttackBonus:
+Weapon_1_Damage:
+
+Weapon_2_Name:
+Weapon_2_AttackBonus:
+Weapon_2_Damage:
+
+Weapon_3_Name:
+Weapon_3_AttackBonus:
+Weapon_3_Damage:
+
+Weapon_4_Name:
+Weapon_4_AttackBonus:
+Weapon_4_Damage:
+
+Weapon_5_Name:
+Weapon_5_AttackBonus:
+Weapon_5_Damage:
+
+# ATTACKS & SPELLCASTING NOTES [MULTI-LINE]
+Additional attack information, special abilities, or combat tactics.
+
+AttacksAndSpellcasting_Notes:
+
+# EQUIPMENT [MULTI-LINE]
+List all carried equipment, adventuring gear, and items. One per line or comma-separated.
+
+Example: "Scale Mail, Shield, Dungeoneer's Pack, Smith's Tools, Tinker's Tools" →
+  Equipment_List: Scale Mail
+  Shield
+  Dungeoneer's Pack
+  Smith's Tools
+  Tinker's Tools
+
+Equipment_List:
+
+# CURRENCY
+Gold piece equivalents: 1 GP = 10 SP = 100 CP; 1 PP = 10 GP
+
+Currency_Copper:
+Currency_Silver:
+Currency_Electrum:
+Currency_Gold:
+Currency_Platinum:
+
+# FEATURES & TRAITS [MULTI-LINE]
+List all racial traits, class features, feats, and special abilities. One per line.
+
+Example: "Darkvision 60 ft, Flight 30 ft, Fire Resistance, Magical Tinkering" →
+  Features_ClassAndRacial: Darkvision 60 ft
+  Flight 30 ft flying speed
+  Fire Resistance
+  Magical Tinkering
+  Spellcasting (Artificer, Intelligence-based)
+
+Features_ClassAndRacial:
+
+# PERSONALITY
+
+Personality_Traits:
+
+Personality_Ideals:
+
+Personality_Bonds:
+
+Personality_Flaws:
+
+# BACKSTORY [MULTI-LINE]
+Character history, background story, origin.
+
+Background_Story:
+
+# ALLIES & ORGANIZATIONS [MULTI-LINE]
+Allies, organizations, faction standings, party relationships.
+
+Notes_AlliesAndOrganizations:
+
+# TREASURE & MAGIC ITEMS [MULTI-LINE]
+Special treasure, magic items, quest items.
+
+Treasure_MagicItems:
+
+# SPELLCASTING BASICS
+Extract spellcasting class, ability score used, and derived values.
+
+Example: "Artificer, Intelligence, Spell Save DC 13, Spell Attack +5" →
+  Spellcasting_Class: Artificer
+  Spellcasting_Ability: Intelligence
+  Spellcasting_AbilityModifier: +3
+  Spellcasting_SpellSaveDC: 13
+  Spellcasting_SpellAttackBonus: +5
+
+Spellcasting_Class:
+Spellcasting_Ability:
+Spellcasting_AbilityModifier:
+Spellcasting_SpellSaveDC:
+Spellcasting_SpellAttackBonus:
+
+# SPELL SLOTS BY LEVEL
+Number of spell slots at each level (1st through 9th). Leave blank if no access to that level.
+
+SpellSlots_Level1_Total:
+SpellSlots_Level2_Total:
+SpellSlots_Level3_Total:
+SpellSlots_Level4_Total:
+SpellSlots_Level5_Total:
+SpellSlots_Level6_Total:
+SpellSlots_Level7_Total:
+SpellSlots_Level8_Total:
+SpellSlots_Level9_Total:
+
+# CANTRIPS (Slots 01-07)
+List up to 7 cantrips the character knows. Cantrips are level 0 spells.
+For each cantrip, provide: Name, Range, Duration, Components, Description
+(Do NOT include a Level field for cantrips - they are always level 0)
+
+Example: [Eldritch Blast cantrip] →
+  Spell_01_Name: Eldritch Blast
+  Spell_01_Range: 120 feet
+  Spell_01_Duration: Instantaneous
+  Spell_01_Components: V, S
+  Spell_01_Description: Make a ranged spell attack for 1d10 force damage
+
+Spell_01_Name:
+Spell_01_Range:
+Spell_01_Duration:
+Spell_01_Components:
+Spell_01_Description:
+
+Spell_02_Name:
+Spell_02_Range:
+Spell_02_Duration:
+Spell_02_Components:
+Spell_02_Description:
+
+Spell_03_Name:
+Spell_03_Range:
+Spell_03_Duration:
+Spell_03_Components:
+Spell_03_Description:
+
+Spell_04_Name:
+Spell_04_Range:
+Spell_04_Duration:
+Spell_04_Components:
+Spell_04_Description:
+
+Spell_05_Name:
+Spell_05_Range:
+Spell_05_Duration:
+Spell_05_Components:
+Spell_05_Description:
+
+Spell_06_Name:
+Spell_06_Range:
+Spell_06_Duration:
+Spell_06_Components:
+Spell_06_Description:
+
+Spell_07_Name:
+Spell_07_Range:
+Spell_07_Duration:
+Spell_07_Components:
+Spell_07_Description:
+
+# LEVELED SPELLS (Slots 08-15)
+List up to 8 leveled spells (levels 1-9) the character knows or has prepared.
+For each leveled spell, provide: Name, Level, Range, Duration, Components, Description
+
+Example: [Cure Wounds, 1st-level spell] →
+  Spell_08_Name: Cure Wounds
+  Spell_08_Level: 1
+  Spell_08_Range: Touch
+  Spell_08_Duration: Instantaneous
+  Spell_08_Components: V, S
+  Spell_08_Description: Restore 1d8 + spellcasting modifier HP
+
+Spell_08_Name:
+Spell_08_Level:
+Spell_08_Range:
+Spell_08_Duration:
+Spell_08_Components:
+Spell_08_Description:
+
+Spell_09_Name:
+Spell_09_Level:
+Spell_09_Range:
+Spell_09_Duration:
+Spell_09_Components:
+Spell_09_Description:
+
+Spell_10_Name:
+Spell_10_Level:
+Spell_10_Range:
+Spell_10_Duration:
+Spell_10_Components:
+Spell_10_Description:
+
+Spell_11_Name:
+Spell_11_Level:
+Spell_11_Range:
+Spell_11_Duration:
+Spell_11_Components:
+Spell_11_Description:
+
+Spell_12_Name:
+Spell_12_Level:
+Spell_12_Range:
+Spell_12_Duration:
+Spell_12_Components:
+Spell_12_Description:
+
+Spell_13_Name:
+Spell_13_Level:
+Spell_13_Range:
+Spell_13_Duration:
+Spell_13_Components:
+Spell_13_Description:
+
+Spell_14_Name:
+Spell_14_Level:
+Spell_14_Range:
+Spell_14_Duration:
+Spell_14_Components:
+Spell_14_Description:
+
+Spell_15_Name:
+Spell_15_Level:
+Spell_15_Range:
+Spell_15_Duration:
+Spell_15_Components:
+Spell_15_Description:
+
+# CLASS-SPECIFIC FIELDS (Optional - Fill only if applicable)
+
+Warlock_Pact:
+Warlock_Patron:
+
+Class_SpecialResource_Name:
+Class_SpecialResource_Total:
+
+# ADDITIONAL SPELL FIELDS
+Warlock invocations, special abilities, cantrip counts, etc.
+
+Spellcasting_InvocationCount:
+Spellcasting_CantripsKnown:
+Spellcasting_SpellsKnown:
+
+Invocations_And_Abilities:
+
+============================================================
+END OF STANDARDIZED TEMPLATE
+============================================================

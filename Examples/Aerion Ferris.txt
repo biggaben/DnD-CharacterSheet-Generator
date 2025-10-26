@@ -1,0 +1,174 @@
+Character Spec Sheet - Player Character Aerion Ferris
+
+Character Identification
+- Name: Aerion Ferris
+- User ID: "Aerion Ferris"
+- Race / Subrace / Lineage: Tiefling (Winged Variant)
+- Class / Subclass / Archetype: Artificer / — / (Battle Smith planned at Level 3)
+- Level: 1
+- XP: 0
+- Alignment: Neutral Good
+- Background: Guild Artisan (Tinker)
+- Origin/Home: Workshop City-State of Daelor’s Reach
+- Gender: Male
+- Age: 31
+
+Core Stats & Abilities
+- Strength: 8 (−1)
+- Dexterity: 16 (+3)
+- Constitution: 14 (+2)
+- Intelligence: 16 (+3)
+- Wisdom: 12 (+1)
+- Charisma: 10 (+0)
+
+Combat/Mechanics
+- Proficiency Bonus: +2
+- Armor Class (AC): 18 (Scale Mail + Shield + Dex modifier)
+- Hit Points (HP): 10
+- Hit Dice: 1d8
+- Speed: 30 ft. walk, 30 ft. fly
+- Initiative Modifier: +3
+- Passive Perception: 13
+- Passive Insight: 13
+- Passive Investigation: 15
+
+Saving Throws
+- Constitution (+4) [Proficient]
+- Intelligence (+5) [Proficient]
+- Strength (−1)
+- Dexterity (+3)
+- Wisdom (+1)
+- Charisma (+0)
+
+Skills & Proficiencies
+- Skills: Investigation (+5) [Proficient], Perception (+3) [Proficient], Insight (+3), Persuasion (+2)
+- Armor Proficiencies: Light, Medium, Shields
+- Weapon Proficiencies: Simple Weapons, Crossbows
+- Tool Proficiencies: Smith’s Tools, Tinker’s Tools, Thieves’ Tools, Alchemist’s Supplies
+- Languages: Common, Infernal, Gnomish
+
+Racial/Lineage Traits
+- Ability Score Increase: +2 Dexterity, +1 Intelligence
+- Darkvision: 60 ft.
+- Fire Resistance
+- Flight: 30 ft. flying speed
+- Infernal Legacy (modified): retains Fire Resistance, loses standard spells due to wings variant
+
+Class Features
+- Magical Tinkering: Imbue small objects with magical properties (light, sound, message, image)
+- Spellcasting (Artificer): prepare and cast spells using Intelligence as the spellcasting ability
+- Tool Expertise (later levels)
+- Infuse Item (available at Level 2)
+- Battle Smith subclass and Steel Defender (available at Level 3)
+
+Subclass / Domain / Path Features
+- None yet (Battle Smith subclass unlocked at Level 3)
+
+Background Features
+- Guild Membership: access to guild workshops, resources, and connections; may owe dues or favors
+- Skill Proficiencies: Insight, Persuasion
+- Tool Proficiencies: One type of Artisan’s Tools (Tinker’s Tools chosen)
+- Feature/Boons: Guild reputation, professional network
+
+Inventory & Equipment
+Weapons:
+  - Light Crossbow: +5 to hit, 1d8+3 piercing, range 80/320 ft.
+  - Light Hammer: +2 to hit, 1d4−1 bludgeoning, range 20/60 ft.
+Armor:
+  - Scale Mail (14 + Dex mod [max 2])
+  - Shield (+2 AC)
+Adventuring Gear:
+  - Dungeoneer’s Pack
+  - Smith’s Tools
+  - Tinker’s Tools
+  - Alchemist’s Supplies
+Magic Items / Quest Items:
+  - None (starting character)
+Money:
+  - 10 GP (standard Guild Artisan starting funds)
+Tools/Artisan Gear:
+  - Smith’s Tools, Tinker’s Tools, Thieves’ Tools, Alchemist’s Supplies
+
+Spellcasting
+- Spellcasting Class, Ability, Modifier: Artificer, Intelligence, +3
+- Spell Save DC: 13
+- Spell Attack Bonus: +5
+- Spell Slots (by level): 2 × 1st-level
+- Cantrips Known: Mending, Fire Bolt
+- Spells Known/Prepared: Cure Wounds, Faerie Fire, Shield
+- Ritual Casting: Yes (Artificer feature)
+- Concentration Slots: 1 active concentration spell at a time
+- Spellbook/Arcane Focus/Holy Symbol: Tools serve as focus (Smith’s, Tinker’s, or Alchemist’s)
+
+Combat Actions
+- Actions:
+  - Attack (Crossbow or Hammer)
+  - Cast a spell
+- Bonus Actions:
+  - None at this level
+- Reactions:
+  - Cast Shield (+5 AC until start of next turn)
+- Key Combat Features:
+  - High AC defense
+  - Flight for tactical positioning
+  - Access to healing and control magic
+
+Resource Pools & Tracking
+- Spell Slots: 2 × 1st-level (recover on long rest)
+- Hit Dice: 1d8
+- Magical Tinkering uses: Intelligence modifier per long rest (3)
+
+Personality
+
+Core Temperament:
+Aerion Ferris is methodical and curious, yet oddly serene. He approaches emotion the same way he approaches invention — as data to be understood. Precision comforts him; improvisation fascinates him. Though calm on the surface, his mind hums like a well-tuned engine, always designing, always refining.
+
+Speech & Demeanor:
+Speaks deliberately, often half-lost in thought mid-sentence. His tone is patient, slightly academic, but with an undercurrent of wonder. When frustrated, he sketches in the air with a finger, drawing invisible diagrams to “debug” his emotions. Others might call him detached; in truth, he’s simply tuned to a different rhythm of thought.
+
+Moral Code:
+Aerion believes morality is a matter of design — that good craftsmanship and good ethics are the same discipline. To build something that endures and helps others is the purest act of goodness.
+
+Personality Traits:
+- I see problems in the world around me as features, not bugs. I'm here to fix them.
+- I can’t resist examining mechanical devices — even in the middle of a fight.
+
+Ideals:
+- Creation Above Destruction: To build is divine; to destroy is lazy.
+- Truth Through Experiment: Progress is born from iteration and imperfection.
+
+Bonds:
+- The Lost Prototype: My first attempt at a living construct failed. I study that loss the way others study sacred texts.
+- Guild Roots: My guild insignia, half-melted in a forge fire, reminds me that every ruin can be reforged.
+
+Flaws:
+- Compulsive Optimizer: I’m never satisfied with “good enough.”
+- Socially Myopic: I sometimes forget that people have emotions; I treat them as systems to debug.
+
+Fears/Goals/Quirks:
+- Fear: Not the loss of control, but the loss of creation itself. Destruction isn’t tragedy — it’s entropy, a natural feature. True failure is when the spark of innovation dies.
+- Goal: To prove that constructed life can possess empathy and moral will equal to any mortal.
+- Quirks: Keeps fragments of failed inventions as lucky charms; polishes his tools during conversation without noticing; measures distances in “wingspans” instead of feet.
+
+Background Summary
+A brilliant craftsman born of infernal lineage, Aerion Ferris left his guild to pursue the dream of living machinery. His wings, a mark of his heritage, inspired his philosophy: that all things — even life — can be engineered. He travels to test inventions in real battle and prove that intellect can rival divinity.
+
+Appearance
+- Height: 5'11"
+- Build: Lean but wiry, calloused hands from years of labor
+- Skin complexion: Ashen bronze, faint red undertones
+- Hair/Facial hair: Black with streaks of copper; usually tied back
+- Eyes: Golden-amber with faint mechanical glimmer
+- Clothing/Armor: Artificer’s coat reinforced with brass fittings; scale mail underneath
+- Distinguishing Features: Metallic-tipped wings resembling folded armor
+- Expression: Focused, analytical, curious
+
+Summary at a Glance
+A winged artificer-engineer who uses intellect and craft to bend the rules of magic. Durable, versatile, and creative, Aerion balances combat, invention, and philosophy — a true hybrid between arcane scholar and battlefield mechanic.
+
+Campaign-specific/Optional Extras
+- Party Relationships/Rivalries: TBD
+- Exclusive/Secret Memories: A prototype Steel Defender that malfunctioned and was lost; his greatest failure.
+- Notes for DM: Keep an eye on creative use of Magical Tinkering and flight mobility.
+- Known Quests/Objectives: Recover lost prototype; prove engineered life equals organic life.
+- Reputation/Faction Standing: Known among the Tinker’s Guild for unorthodox theories about mechanical souls.

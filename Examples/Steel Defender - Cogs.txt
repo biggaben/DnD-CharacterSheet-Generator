@@ -1,0 +1,143 @@
+Steel Defender Companion "Cogs" Spec Sheet
+
+Character Identification
+- Name: Cogs
+- User ID: "Aerion Ferris" [Linked to Aerion Ferris]
+- Player Character / NPC / Enemy: Companion Construct (Steel Defender)
+- Race / Subrace / Lineage: Construct (Mechanical Hound)
+- Class / Subclass / Archetype: Artificer’s Steel Defender (Battle Smith subclass feature)
+- Level: 3 (scales with Artificer’s level)
+- XP: —
+- Alignment: True Neutral (reflects programming, influenced by creator)
+- Background: Created by The Winged Smith, Guild Artisan
+- Origin/Home: Daelor’s Reach, The Winged Smith’s forge
+- Gender: None (uses he/him per creator preference)
+- Age: Newly constructed; operational time measured in days
+
+Core Stats & Abilities
+- Strength: 14 (+2)
+- Dexterity: 12 (+1)
+- Constitution: 14 (+2)
+- Intelligence: 4 (−3)
+- Wisdom: 10 (+0)
+- Charisma: 6 (−2)
+
+Combat/Mechanics
+- Proficiency Bonus: +3 (uses creator’s)
+- Armor Class (AC): 18 (15 + PB)
+- Hit Points (HP): 30 (2 + creator’s Int mod + 5 × artificer level)
+- Hit Dice: —
+- Speed: 40 ft. (quadrupedal locomotion)
+- Initiative Modifier: +1
+- Passive Perception: 14
+- Passive Insight: 10
+- Passive Investigation: 7
+
+Saving Throws
+- Strength: +4
+- Dexterity: +2
+- Constitution: +5
+- Intelligence: −3
+- Wisdom: +3
+- Charisma: −2
+
+Skills & Proficiencies
+- Skills: Athletics +4, Perception +4
+- Armor Proficiencies: Natural plating (no armor worn)
+- Weapon Proficiencies: Natural weapons (Force Rend)
+- Tool Proficiencies: None
+- Languages: Understands the languages of its creator, cannot speak
+
+Racial/Lineage Traits
+- Construct Nature:
+  - Immune to poison damage, charmed, poisoned, and exhaustion conditions
+  - Does not eat, sleep, or breathe
+  - Cannot be surprised
+- Senses: Darkvision 60 ft.
+- Movement: Quadrupedal ground movement, exceptional balance and traction
+
+Class Features
+- Steel Defender Core (Battle Smith feature)
+  - Acts on creator’s initiative (immediately after)
+  - Obeys verbal or telepathic commands
+  - Uses creator’s Proficiency Bonus for attack rolls and features
+- Force-Empowered Rend:
+  - Melee Weapon Attack: +5 to hit, reach 5 ft., one target
+  - Hit: 1d8 + PB (3) force damage
+- Repair (3/day):
+  - Heals itself or another construct for 2d8 + PB (3) HP
+- Deflect Attack (Reaction):
+  - Imposes disadvantage on an attack roll targeting a creature within 5 ft.
+- Mending Integration:
+  - The Winged Smith can use the *Mending* cantrip to heal Cogs for 2d6 HP
+
+Subclass / Domain / Path Features
+- Functionally identical to all Steel Defenders, but reflavored as a mechanical dog
+- Custom enhancements via Artificer infusions at higher levels (plating, thrusters, sensors)
+
+Background Features
+- Origin: Built as the first successful prototype of The Winged Smith’s theory of mechanical sentience
+- Personality Core: Displays animal-like loyalty, faint curiosity, and adaptive problem-solving
+- Relationship: Treats The Winged Smith as both creator and pack leader
+
+Inventory & Equipment
+Weapons:
+  - Force-Empowered Rend (natural attack)
+Armor:
+  - Integrated steel plating (AC = 15 + PB)
+Adventuring Gear:
+  - Internal storage compartment (5 lb. capacity)
+Magic Items / Quest Items:
+  - None (may be upgraded later)
+Money:
+  - None
+Tools/Artisan Gear:
+  - Internal gyroscope, pressure sensors, auditory receiver array
+
+Spellcasting
+- None (construct)
+- Responds to Artificer command spells and infusions
+
+Combat Actions
+- Actions:
+  - Force-Empowered Rend (Attack)
+  - Repair (restore HP to construct)
+- Bonus Actions:
+  - Follows creator’s commands (Attack, Help, Dash, Disengage, or Shove)
+- Reactions:
+  - Deflect Attack (impose disadvantage on hit within 5 ft.)
+- Key Combat Features:
+  - Defender/tank role, tactical control, helps ground allies while creator flies
+
+Resource Pools & Tracking
+- Repair Uses: 3 per day
+- Hit Points: 30 base, healable via Mending or spell slot (Revive)
+- Revival: Can be reactivated within 1 minute of destruction by spending a spell slot
+
+Personality
+- Traits: Obedient, vigilant, quietly expressive through mechanical motions
+- Ideals: Function defines purpose; to protect its maker is perfection
+- Bonds: Bound to The Winged Smith by arcane signature and mutual respect
+- Flaws: Literal interpretation of commands; struggles with abstraction
+- Fears/Goals/Quirks: Emits a low whine when separated from The Winged Smith; enjoys having its plating polished
+
+Background Summary
+- Cogs was built to embody The Winged Smith’s philosophy: that invention can reflect compassion. The construct began as an experiment in autonomous defense but quickly became something greater — a partner. Though programmed, its behavior suggests emerging awareness.
+
+Appearance
+- Height: 3 ft. (shoulder)
+- Length: 5 ft.
+- Build: Compact and dense; low-slung for stability
+- Material: Brass-steel plating, exposed runic conduits, piston joints
+- Eyes: Twin amber lenses with faint infernal glow
+- Distinguishing Features: Tail doubles as articulated tool arm; retractable claws; steam vents on shoulders
+- Expression: Neutral mechanical gaze; head tilts to interpret commands
+
+Summary at a Glance
+- Medium construct shaped as a brass-plated mechanical dog. Loyal, vigilant, and efficient. Defends its creator with reactive precision and occasional sparks of personality. Symbol of the harmony between intellect and empathy.
+
+Campaign-specific/Optional Extras
+- Relationship with Party: Acts as The Winged Smith’s bodyguard and scout
+- Notes for DM: Treat as sentient companion for roleplay potential; obeys commands but learns behaviorally
+- Known Quests/Objectives: Protect The Winged Smith; record data for future prototypes
+- Reputation/Faction Standing: Recognized as a marvel of engineering by the Tinker’s Guild
