@@ -157,10 +157,10 @@ VSVersionInfo(
   kids=[
     StringFileInfo([
       StringTable('040904B0', [
-        StringStruct('CompanyName', 'Your Name'),
+        StringStruct('CompanyName', 'GenSecLabs'),
         StringStruct('FileDescription', 'D&D Character Sheet Auto-Fill'),
         StringStruct('FileVersion', '1.0.0.0'),
-        StringStruct('ProductName', 'D&D Character Sheet Filler'),
+        StringStruct('ProductName', 'DnD Character Sheet Tools'),
         StringStruct('ProductVersion', '1.0.0.0')
       ])
     ])
