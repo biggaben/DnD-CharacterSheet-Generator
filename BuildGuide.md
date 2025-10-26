@@ -24,7 +24,7 @@ Simply run the build script:
 .\build_exe.bat
 ```
 
-The executable will be created at: `dist\DnD_SpecSheet_Generator.exe`
+The executable will be created at: `dist\DnD_CharacterSheet_Generator.exe`
 
 ## Manual Build (Alternative)
 
@@ -38,7 +38,7 @@ If you prefer to build manually:
 pyinstaller --onefile --windowed `
   --add-data "field_mappings.json;." `
   --add-data "character_sheets;character_sheets" `
-  --name "DnD_SpecSheet_Generator" `
+  --name "DnD_CharacterSheet_Generator" `
   --clean `
   fill_character_sheet.py
 ```
@@ -67,7 +67,7 @@ The executable bundles:
 After building:
 
 1. Navigate to `dist\` folder
-2. Double-click `DnD_SpecSheet_Generator.exe`
+2. Double-click `DnD_CharacterSheet_Generator.exe`
 3. Test:
    - File picker opens to character_sheets folder
    - Can select a template file
@@ -106,7 +106,7 @@ To see what's happening:
 pyinstaller --onefile `
   --add-data "field_mappings.json;." `
   --add-data "character_sheets;character_sheets" `
-  --name "DnD_SpecSheet_Generator" `
+  --name "DnD_CharacterSheet_Generator" `
   fill_character_sheet.py
 ```
 
@@ -120,7 +120,7 @@ The final executable is completely standalone:
 - **Requirements**: None - no Python installation needed
 - **Compatibility**: Windows 7+ (64-bit)
 
-Share `DnD_SpecSheet_Generator.exe` with others who can run it without installing anything.
+Share `DnD_CharacterSheet_Generator.exe` with others who can run it without installing anything.
 
 ## Advanced: Creating a Windows Installer
 
@@ -181,8 +181,8 @@ After building, you'll see:
 ```
 build/                      # Temporary build files (can be deleted)
 dist/                       # Output folder
-  └── DnD_SpecSheet_Generator.exe   # Your executable!
-DnD_SpecSheet_Generator.spec  # PyInstaller spec file (can be reused)
+  └── DnD_CharacterSheet_Generator.exe   # Your executable!
+DnD_CharacterSheet_Generator.spec  # PyInstaller spec file (can be reused)
 ```
 
-The only file you need is `dist\DnD_SpecSheet_Generator.exe`.
+The only file you need is `dist\DnD_CharacterSheet_Generator.exe`.
