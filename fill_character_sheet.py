@@ -5,6 +5,7 @@ import re
 import json
 import sys
 import os
+import shutil
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from pathlib import Path
@@ -233,17 +234,43 @@ def get_character_name_from_filename(template_path: Path) -> str:
 
 
 def main():
-    """Main function: Open file picker, fill PDF, done."""
+    """Main function: Check for generation prompt, guide user through LLM generation, then fill PDF."""
 
     # Hide the root tkinter window
     root = tk.Tk()
     root.withdraw()
     root.attributes('-topmost', True)
 
+    # Check for generation_prompt.txt
+    script_dir = get_resource_path("")
+    generation_prompt_path = script_dir / "generation_prompt.txt"
+    template_path_source = get_resource_path("character_sheets") / "character_standardized_template.txt"
+
+    if not generation_prompt_path.exists():
+        if template_path_source.exists():
+            shutil.copy2(template_path_source, generation_prompt_path)
+            print("Created generation_prompt.txt from template")
+        else:
+            msg = "character_standardized_template.txt not found!"
+            messagebox.showerror("Error", msg)
+            return 1
+
+    # Show instructions for LLM generation
+    instructions = (
+        "generation_prompt.txt is ready in the script directory.\n\n"
+        "To generate a character:\n"
+        "1. Open generation_prompt.txt\n"
+        "2. Upload it to an LLM like ChatGPT along with your character description\n"
+        "3. Copy the LLM's response and save it as a .txt file\n"
+        "4. Click OK, then select that .txt file in the file picker\n\n"
+        "Click OK to continue..."
+    )
+    messagebox.showinfo("LLM Character Generation", instructions)
+
     # Open file picker
     template_path = filedialog.askopenfilename(
-        title="Select Character Template File",
-        initialdir=get_resource_path("character_sheets"),
+        title="Select LLM-Generated Character File",
+        initialdir=script_dir,
         filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
     )
 

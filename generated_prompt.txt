@@ -1,0 +1,326 @@
+# CHARACTER IDENTITY
+
+Player_Name:
+Character_Name: Aerion Ferris
+Character_Class_Level: Artificer 1
+Character_Race: Tiefling (Winged Variant)
+Character_Background: Guild Artisan (Tinker)
+Character_Alignment: Neutral Good
+Character_XP: 0
+
+# PHYSICAL APPEARANCE
+
+Appearance_Age: 31
+Appearance_Height: 5'11"
+Appearance_Weight:
+Appearance_Eyes: Golden-amber with a faint mechanical glimmer
+Appearance_Skin: Ashen bronze with faint red undertones
+Appearance_Hair: Black with copper streaks; tied back
+
+# ABILITY SCORES
+
+Ability_Strength: 8
+Ability_Strength_Modifier: -1
+Ability_Dexterity: 16
+Ability_Dexterity_Modifier: +3
+Ability_Constitution: 14
+Ability_Constitution_Modifier: +2
+Ability_Intelligence: 16
+Ability_Intelligence_Modifier: +3
+Ability_Wisdom: 12
+Ability_Wisdom_Modifier: +1
+Ability_Charisma: 10
+Ability_Charisma_Modifier: +0
+
+# COMBAT STATS
+
+Combat_ProficiencyBonus: +2
+Combat_ArmorClass: 18
+Combat_Initiative: +3
+Combat_Speed: 30 ft. (walk), 30 ft. (fly)
+Combat_PassivePerception: 13
+Combat_Inspiration:
+
+# HIT POINTS & HIT DICE
+
+HP_Maximum: 10
+HP_Current: 10
+HP_Temporary:
+HitDice_Total: 1
+HitDice_Type: 1d8
+
+# SAVING THROWS
+
+Save_Strength_Bonus: -1
+Save_Strength_Proficient:
+Save_Dexterity_Bonus: +3
+Save_Dexterity_Proficient:
+Save_Constitution_Bonus: +4
+Save_Constitution_Proficient: Yes
+Save_Intelligence_Bonus: +5
+Save_Intelligence_Proficient: Yes
+Save_Wisdom_Bonus: +1
+Save_Wisdom_Proficient:
+Save_Charisma_Bonus: +0
+Save_Charisma_Proficient:
+
+# SKILLS (18 Total)
+
+Skill_Acrobatics_Bonus: +3
+Skill_Acrobatics_Proficient:
+Skill_AnimalHandling_Bonus: +1
+Skill_AnimalHandling_Proficient:
+Skill_Arcana_Bonus: +3
+Skill_Arcana_Proficient:
+Skill_Athletics_Bonus: -1
+Skill_Athletics_Proficient:
+Skill_Deception_Bonus: +0
+Skill_Deception_Proficient:
+Skill_History_Bonus: +3
+Skill_History_Proficient:
+Skill_Insight_Bonus: +3
+Skill_Insight_Proficient: Yes
+Skill_Intimidation_Bonus: +0
+Skill_Intimidation_Proficient:
+Skill_Investigation_Bonus: +5
+Skill_Investigation_Proficient: Yes
+Skill_Medicine_Bonus: +1
+Skill_Medicine_Proficient:
+Skill_Nature_Bonus: +3
+Skill_Nature_Proficient:
+Skill_Perception_Bonus: +3
+Skill_Perception_Proficient: Yes
+Skill_Performance_Bonus: +0
+Skill_Performance_Proficient:
+Skill_Persuasion_Bonus: +2
+Skill_Persuasion_Proficient: Yes
+Skill_Religion_Bonus: +3
+Skill_Religion_Proficient:
+Skill_SleightOfHand_Bonus: +3
+Skill_SleightOfHand_Proficient:
+Skill_Stealth_Bonus: +3
+Skill_Stealth_Proficient:
+Skill_Survival_Bonus: +1
+Skill_Survival_Proficient:
+
+# PROFICIENCIES & LANGUAGES
+
+Proficiencies_Languages: Light Armor, Medium Armor, Shields
+Simple Weapons, Crossbows
+Smith's Tools, Tinker's Tools, Thieves' Tools, Alchemist's Supplies
+Common, Infernal, Gnomish
+
+# WEAPONS & ATTACKS (5 slots)
+
+Weapon_1_Name: Light Crossbow
+Weapon_1_AttackBonus: +5
+Weapon_1_Damage: 1d8+3 piercing
+
+Weapon_2_Name: Light Hammer
+Weapon_2_AttackBonus: +2
+Weapon_2_Damage: 1d4-1 bludgeoning (range 20/60 ft.)
+
+Weapon_3_Name:
+Weapon_3_AttackBonus:
+Weapon_3_Damage:
+
+Weapon_4_Name:
+Weapon_4_AttackBonus:
+Weapon_4_Damage:
+
+Weapon_5_Name:
+Weapon_5_AttackBonus:
+Weapon_5_Damage:
+
+# ATTACKS & SPELLCASTING NOTES
+
+AttacksAndSpellcasting_Notes: Artificer spellcasting uses Intelligence; tools serve as spellcasting focus. Reaction: Shield for +5 AC until start of next turn. Flight enables superior positioning and lines of sight. Maintain one concentration spell at a time.
+
+# EQUIPMENT
+
+Equipment_List: Scale Mail
+Shield
+Dungeoneer's Pack
+Smith's Tools
+Tinker's Tools
+Alchemist's Supplies
+
+# CURRENCY
+
+Currency_Copper:
+Currency_Silver:
+Currency_Electrum:
+Currency_Gold: 10
+Currency_Platinum:
+
+# FEATURES & TRAITS
+
+Features_ClassAndRacial: Darkvision 60 ft
+Fire Resistance
+Flight 30 ft flying speed
+Magical Tinkering
+Spellcasting (Artificer, Intelligence-based; Ritual Casting)
+Armor Proficiencies: Light, Medium, Shields
+Weapon Proficiencies: Simple Weapons, Crossbows
+Tool Proficiencies: Smith's Tools, Tinker's Tools, Thieves' Tools, Alchemist's Supplies
+Background—Guild Membership: access to guild resources; dues/favors may apply
+
+# PERSONALITY
+
+Personality_Traits: I see problems in the world around me as features, not bugs; I can’t resist examining mechanical devices—even in the middle of a fight.
+
+Personality_Ideals: Creation Above Destruction; Truth Through Experiment.
+
+Personality_Bonds: The Lost Prototype; Guild Roots (half-melted insignia).
+
+Personality_Flaws: Compulsive Optimizer; Socially Myopic.
+
+# BACKSTORY
+
+Background_Story: A winged tiefling artificer from Daelor’s Reach, Aerion treats ethics like engineering—designs meant to help others endure. After a failed attempt at a living construct, he travels to test inventions in real battles, prove that crafted life can hold empathy, and refine the boundary where magic meets mechanism.
+
+# ALLIES & ORGANIZATIONS
+
+Notes_AlliesAndOrganizations: Tinker’s Guild—reputation for unorthodox theories on mechanical souls; party relationships TBD.
+
+# TREASURE & MAGIC ITEMS
+
+Treasure_MagicItems: None
+
+# SPELLCASTING BASICS
+
+Spellcasting_Class: Artificer
+Spellcasting_Ability: Intelligence
+Spellcasting_AbilityModifier: +3
+Spellcasting_SpellSaveDC: 13
+Spellcasting_SpellAttackBonus: +5
+
+# SPELL SLOTS BY LEVEL
+
+SpellSlots_Level1_Total: 2
+SpellSlots_Level2_Total:
+SpellSlots_Level3_Total:
+SpellSlots_Level4_Total:
+SpellSlots_Level5_Total:
+SpellSlots_Level6_Total:
+SpellSlots_Level7_Total:
+SpellSlots_Level8_Total:
+SpellSlots_Level9_Total:
+
+# CANTRIPS
+
+Spellcasting_CantripsKnown: 2
+
+Cantrip_1_Name: Mending
+Cantrip_1_Range: Touch
+Cantrip_1_Duration: Instantaneous
+Cantrip_1_Components: V, S, M
+Cantrip_1_Description: Repairs a break or tear (no larger than 1 foot) in an object; multiple castings can mend larger breaks over time.
+
+Cantrip_2_Name: Fire Bolt
+Cantrip_2_Range: 120 feet
+Cantrip_2_Duration: Instantaneous
+Cantrip_2_Components: V, S
+Cantrip_2_Description: Make a ranged spell attack; on hit, target takes 1d10 fire damage and unattended flammable objects may ignite.
+
+Cantrip_3_Name:
+Cantrip_3_Range:
+Cantrip_3_Duration:
+Cantrip_3_Components:
+Cantrip_3_Description:
+
+Cantrip_4_Name:
+Cantrip_4_Range:
+Cantrip_4_Duration:
+Cantrip_4_Components:
+Cantrip_4_Description:
+
+Cantrip_5_Name:
+Cantrip_5_Range:
+Cantrip_5_Duration:
+Cantrip_5_Components:
+Cantrip_5_Description:
+
+Cantrip_6_Name:
+Cantrip_6_Range:
+Cantrip_6_Duration:
+Cantrip_6_Components:
+Cantrip_6_Description:
+
+Cantrip_7_Name:
+Cantrip_7_Range:
+Cantrip_7_Duration:
+Cantrip_7_Components:
+Cantrip_7_Description:
+
+# LEVELED SPELLS
+
+Spellcasting_SpellsKnown: 3
+
+Spell_01_Name: Cure Wounds
+Spell_01_Level: 1
+Spell_01_Range: Touch
+Spell_01_Duration: Instantaneous
+Spell_01_Components: V, S
+Spell_01_Description: A creature you touch regains 1d8 + your spellcasting ability modifier HP.
+
+Spell_02_Name: Faerie Fire
+Spell_02_Level: 1
+Spell_02_Range: 60 feet
+Spell_02_Duration: Concentration, up to 1 minute
+Spell_02_Components: V
+Spell_02_Description: Outline creatures in light; affected targets grant advantage to attackers and cannot benefit from being invisible.
+
+Spell_03_Name: Shield
+Spell_03_Level: 1
+Spell_03_Range: Self
+Spell_03_Duration: 1 round
+Spell_03_Components: V, S
+Spell_03_Description: An invisible barrier of force grants +5 AC until the start of your next turn; can be cast as a reaction when hit or targeted by Magic Missile.
+
+Spell_04_Name:
+Spell_04_Level:
+Spell_04_Range:
+Spell_04_Duration:
+Spell_04_Components:
+Spell_04_Description:
+
+Spell_05_Name:
+Spell_05_Level:
+Spell_05_Range:
+Spell_05_Duration:
+Spell_05_Components:
+Spell_05_Description:
+
+Spell_06_Name:
+Spell_06_Level:
+Spell_06_Range:
+Spell_06_Duration:
+Spell_06_Components:
+Spell_06_Description:
+
+Spell_07_Name:
+Spell_07_Level:
+Spell_07_Range:
+Spell_07_Duration:
+Spell_07_Components:
+Spell_07_Description:
+
+Spell_08_Name:
+Spell_08_Level:
+Spell_08_Range:
+Spell_08_Duration:
+Spell_08_Components:
+Spell_08_Description:
+
+# CLASS-SPECIFIC FIELDS (Optional - Fill only if applicable)
+
+Warlock_Pact:
+Warlock_Patron:
+
+Spellcasting_InvocationCount:
+
+Class_SpecialResource_Name:
+Class_SpecialResource_Total:
+
+Invocations_And_Abilities:
