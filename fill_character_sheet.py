@@ -259,10 +259,10 @@ def main():
     instructions = (
         "generation_prompt.txt is ready in the script directory.\n\n"
         "To generate a character:\n"
-        "1. Open generation_prompt.txt\n"
-        "2. Upload it to an LLM like ChatGPT along with your character description\n"
-        "3. Copy the LLM's response and save it as a .txt file\n"
-        "4. Click OK, then select that .txt file in the file picker\n\n"
+        "1. Upload generation_prompt.txt to an LLM like ChatGPT along with a character description.\n"
+        "2. Copy the LLM's response and save it as 'CHARACTER_NAME.txt'.\n"
+        "3. Click OK, then select that .txt file in the file picker\n"
+        "4. Your character sheet will then be generated.\n\n"
         "Click OK to continue..."
     )
     messagebox.showinfo("LLM Character Generation", instructions)
