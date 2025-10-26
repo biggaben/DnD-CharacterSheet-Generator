@@ -1,6 +1,6 @@
 # Building the Executable
 
-This document explains how to build a standalone `.exe` file for the D&D Character Sheet Auto-Fill Tool using PyInstaller.
+This document explains how to build a standalone `.exe` file for the D&D Character Sheet Generator using PyInstaller.
 
 ## Prerequisites
 

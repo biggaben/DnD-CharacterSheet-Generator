@@ -1,4 +1,4 @@
-# D&D Character Sheet Auto-Fill
+# D&D Character Sheet Generator
 
 Automatically fill D&D 5e character sheet PDFs from text templates.
 
